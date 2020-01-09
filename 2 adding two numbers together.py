@@ -1,9 +1,9 @@
 #add two variables assign values to them
-numb1 = 14
-numb2 = 8
+numb1 = input("Enter number one: ")
+numb2 = input("Enter number two: ")
 
 #we need another variable called ans, we will assign the calculation to it
 
-ans = numb1 + numb2
+ans = int(numb1) + int(numb2)
 
 print  ("The answer is" ,ans)
