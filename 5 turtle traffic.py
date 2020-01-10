@@ -45,14 +45,12 @@ state_num = 0
 def advance_state_machine():
     global state_num
     if state_num == 0:       # Transition from state 0 to state 1
-        tess.forward(140)
-        tess.fillcolor("red")
+        tess.forward(70)
+        tess.fillcolor("orange")
         state_num = 1
     elif state_num == 1:     # Transition from state 1 to state 2
-        tess.forward(1)
+        tess.forward(70)
         tess.fillcolor("red")
-        tess.back(140)
-        tess.fillcolor("orange")
         state_num = 2
     else:                    # Transition from state 2 to state 0
         tess.back(140)
